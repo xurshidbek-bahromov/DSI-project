@@ -1,0 +1,50 @@
+.welcome_section {
+    max-width: 1440px;
+    background-color: #F6F6F6;
+    margin: auto;
+
+    .section_img_text {
+        display: grid;
+        grid-template-columns: auto auto;
+
+        .img {
+            max-width: 100%;
+            margin: auto;
+        }
+
+        .text {
+            margin-top: 35px;
+            gap: 30px;
+            align-items: center;
+
+            h2 {
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 42px;
+                align-items: center;
+
+                span {
+                    color: #EE4248;
+                }
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 27px;
+
+                span {
+                    color: #EE4248;
+                }
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .welcome_section .section_img_text{
+        grid-template-columns: auto;
+        margin: 20px 0;
+    }
+}
