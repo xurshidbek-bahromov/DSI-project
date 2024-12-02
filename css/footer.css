@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1150px;
+    margin: auto;
+    padding: 0 20px;
+}
+.footer-part{
+    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.parts{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.last-line{
+    background-color: #EE4248;
+    width: 1150px;
+    height: 40px;
+    text-align: center;
+    color: white;
+}
